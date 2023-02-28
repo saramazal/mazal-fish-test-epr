@@ -391,6 +391,7 @@ a {
     flex-direction: column;
     max-width: 700px;
     width: 40%;
+    height: 97vh;
     background: #DB8876;
     border-radius: 5px;
     padding: 30px;
