@@ -368,7 +368,7 @@ a {
     position: fixed;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     top: 0;
     left: 0;
     width: 100%;
