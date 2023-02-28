@@ -46,18 +46,18 @@ let mediasPvrofil;
 let profilvPage;
 let TLivkes = 0;
 let currventIndex = 0;
-let isOpven = 1;
+let isOpen = 1;
 let isFovmOpen = false;
 let isCarvouOpen = false;
 hlloworld();
 
 contact.addEventListener('click', () => {
       formulaireContact.style.visibility = "visible";
-     /*  photographeName.textContent = `${nomProfil.textContent}`; 
+     photographeName.textContent = `${nomProfil.textContent}`; 
       formulaireContact.style.animation = 'modalopen 1.5s';
       document.getElementsByClassName("input-form")[0].focus();
       isFormOpen = true;
   
-      console.log(isCarouOpen) */
+      console.log(isCarouOpen)
   });
  
