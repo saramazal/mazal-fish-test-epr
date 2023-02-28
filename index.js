@@ -99,6 +99,7 @@ function displayProfils(photographe) {
     }        
 
     newDiv.appendChild(divTags);
+}
 
     /*setTimeout(() => {
     
