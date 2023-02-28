@@ -1,0 +1,798 @@
+a div {
+      display: block !important;
+}
+
+#main-section .card {
+      display: inline !important;
+      display: flex !important;
+      flex-direction: row;
+      align-items: self-end;
+      justify-content: last baseline;     
+      gap: 10px;  
+}
+
+.card {
+      display: block;
+}
+
+.card div {
+      display: block;
+}
+
+.nopaddatep {
+      padding-bottom: 0px;
+      padding-top: 0px;
+  }
+  
+  [class*="col-"].nopaddatep {
+      padding-bottom: 0px;
+      padding-top: 0px;
+  }
+  
+  .grgr {
+      background-color: rgb(236, 236, 248);
+  }
+  
+  .btnNewInciGoto {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: fit-content;
+      height: 30px;
+      border-radius: 7px;
+      background-color: transparent !important;
+      border: 1px solid #B61219;
+      font-size: 14px;
+      color: black !important;
+      padding: 10px;
+  }
+  
+  .btnNewInciCancel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+      height: 30px;
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+  }
+  
+  .btnNewInciSave {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: fit-content !important;
+      height: 30px !important;
+      padding: 10px;
+      border-radius: 7px !important;
+      background-color: #ab1215 !important;
+      border: none;
+      color: white;
+      padding: 5px 25px;
+  }
+  
+  .container-btns-approved {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .container-btns-right, .container-btns-left {
+      display: flex;
+      align-items: center;
+      width: 50%;
+  }
+  
+  .container-btns-right {
+      justify-content: end;
+      gap: 30px;
+      padding-right: 8px;
+  }
+  
+  .container-btns-left {
+      justify-content: start;
+      padding-left: 8px;
+  }
+  
+  .custom-filter-cont {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  
+  #editfilter {
+      cursor: pointer;
+      fill: #2f2c28;
+  }
+  
+  .mr-2 {
+      margin-right: 5px;
+  }
+  
+  .edit-icon-filters {
+      position: absolute;
+  }
+  
+  .inlinebll {
+      display: inline-block;
+  }
+  
+  #opfilter {
+      float: left;
+  }
+  
+  .blkblk {
+      color: black;
+  }
+  
+  .newfiler {
+      height: 26px !important;
+  }
+  
+  .lbltime {
+      margin-left: 6%;
+  }
+  
+  .FilterButtons {
+      display: inline-block;
+      float: right;
+      max-width: 780px;
+  }
+  
+  .FilterBtn {
+      display: inline;
+      float: left;
+      text-align: left;
+      padding: 3px 0 0 9px;
+      margin-bottom: 3px;
+  }
+  
+      .FilterBtn a {
+          text-decoration: none;
+          display: inline;
+          color: #064982;
+      }
+  
+  .FilterBtnLeft {
+      display: inline;
+  }
+  
+  .FilterBtn .FilterBtnCenter {
+      display: inline-block;
+      direction: rtl;
+      float: left;
+      /* height: 14px; */
+      font: 13px arial;
+      color: #7a7a7a;
+      padding: 2px;
+      background-color: #f8f8f5;
+      border: 1px solid #c5c5c5;
+      border-radius: 5px;
+      /* border-top-left-radius: 5px; */
+      /* border-bottom-left-radius: 5px; */
+      /* border-top-right-radius: 5px; */
+      /* border-bottom-right-radius: 5px; */
+      /* margin-left: 5px; */
+      margin: 0px 0px 6px 6px;
+  }
+  
+      .FilterBtn .FilterBtnCenter A:visited {
+          font: 14px arial;
+          color: #7a7a7a;
+          text-decoration: none;
+      }
+  
+  
+  .delfilt {
+      padding: 3px;
+      font-size: 16px;
+      border-left: 2px solid #c5c5c5;
+      cursor: pointer;
+  }
+  
+  .onlyfilt {
+      padding: 4px;
+      font-size: 13px;
+      cursor: pointer;
+      color: #064982;
+  }
+  /*.filterbox {
+      border: 1px solid lightgray;
+      padding: 5px;
+      border-radius: 5px;
+      margin: 0px 20px 0px 20px;
+  }*/
+  .filterBtnToggle {
+      margin-left: 15px;
+      /*border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      background-color: lightgray !important;
+      background: lightgrey !important;
+      color: #3c8dbc !important;
+      border-color: darkgray !important;*/
+  }
+  
+      .filterBtnToggle:hover {
+          color: blue !important;
+          border-color: gray !important;
+      }
+  
+  .ellipsize-left {
+      /* Standard CSS ellipsis */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 200px;
+      /* Beginning of string */
+      direction: rtl;
+      text-align: left;
+  }
+  
+  .pk3onlyhr {
+      border-bottom: 0px !important;
+      /* margin-right: 0px !important; */
+      /* margin-left: 0px !important; */
+      /* margin-bottom: -50px; */
+      color: transparent;
+      margin-right: 21%;
+      position: absolute;
+      /*bottom: 3px;*/
+      background: transparent;
+      right: 0px;
+  }
+  
+  .clshr {
+      width: 100%;
+      position: relative;
+  }
+  
+  .imglit {
+      /*max-height: 25px;*/
+      max-height: 30px;
+  }
+  
+  .gotowid {
+      width: 13%;
+  }
+  
+  .unitnum {
+      width: 7%;
+  }
+  
+  .insptype {
+      width: 8%;
+  }
+  
+  .page-header {
+      margin-top: 20px;
+  }
+  
+  h4 {
+      margin-top: 25px;
+  }
+  
+  .row {
+      margin-bottom: 5px;
+  }
+  
+      .row .row {
+          /*margin-top: 10px;*/
+          margin-bottom: 0;
+      }
+  
+  [class*="col-"] {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  
+  .paddtb5 {
+      padding-bottom: 0px !important;
+  }
+  /*[class*="col-"] {
+      padding-top: 5px;
+      padding-bottom: 5px;
+   
+      border: 1px solid #ddd;
+      border: 1px solid rgba(86,61,124,.2);
+  }
+  
+      [class*="col-"].actionBar {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          border: 0px solid;
+      }
+  
+  col-sm6 {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border: 0px solid !important;
+  }*/
+  
+  input[type=text] {
+      margin-left: 5px;
+      float: right;
+      width: 50%;
+      border-radius: 0;
+      box-shadow: none;
+      border-color: #d2d6de;
+      border: 1px solid #ccc;
+  }
+  
+  
+  .midinp {
+      margin-left: 10%;
+      float: none;
+      width: 80%;
+  }
+  
+  hr {
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+  
+  .rownob {
+      margin-bottom: 0px;
+  }
+  
+  .row0px {
+      border: 0px;
+  }
+  
+  #inspector {
+      margin-left: 10px;
+  }
+  
+  
+  input.allr[type=radio] {
+      float: right;
+  }
+  
+  .datetimepicker1, .datetimepicker2, .datetimepicker3, .datetimepicker4 {
+      /*padding-bottom: 0px;
+      padding-top: 0px;*/
+      /*height: 24px;*/
+  }
+  
+  .scenbody input[type=checkbox], .scenbody input.datetimepicker1, .scenbody input.datetimepicker2, .scenbody input.datetimepicker3, .scenbody input.datetimepicker4 {
+      width: initial !important;
+  }
+  
+  .checkbox.checkbox-inline {
+      margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 1471px) {
+      .btn-light.hideChevron {
+          display: none;
+      }
+  }
+  
+  @media screen and (max-width: 1024px) {
+      .imglit {
+          /*max-height: 15px;*/
+          max-height: 22px;
+      }
+  
+      .gotowid {
+          width: 12%;
+      }
+  
+      .unitnum {
+          width: 5%;
+      }
+  
+      .insptype {
+          width: 8%;
+      }
+  }
+  
+  .hidebig {
+      display: none;
+  }
+  
+  @media screen and (max-width: 1150px) {
+      .hidinci {
+          display: none !important;
+      }
+  
+      .hidebig {
+          display: block;
+          margin-bottom: -2px;
+          
+      }
+  }
+  
+  @media screen and (max-width: 1150px) {
+      .cadi {
+          width: 16%;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+      .imglit {
+          /*max-height: 17px;*/
+          max-height: 22px;
+      }
+  
+      .gotowid {
+          width: 14%;
+      }
+  
+      .unitnum {
+          width: 7%;
+      }
+  
+      .cadi {
+          width: 13%;
+      }
+  
+      .insptype {
+          width: 8%;
+      }
+  
+  
+      /*.hidinci {
+          display: none !important;
+      }*/
+  }
+  
+  @media screen and (max-width: 750px) {
+      .gotowid {
+          width: 25%;
+      }
+  
+      .unitnum {
+          width: 10%;
+      }
+  
+      .cadi {
+          width: 25%;
+      }
+  
+      .insptype {
+          width: 8%;
+      }
+  }
+  
+  @media screen and (max-width: 500px) {
+      .fontsm {
+          font-size: 13px;
+      }
+  
+      .imglit {
+          /*max-height: 13px;*/
+          max-height: 17px;
+      }
+  
+      .gotowid {
+          width: 25%;
+      }
+  
+      .unitnum {
+          width: 10%;
+      }
+  
+      .cadi {
+          width: 25%;
+      }
+  
+      .insptype {
+          width: 8%;
+      }
+  }
+  
+  /*בשביל האפרטוס*/
+  /*.bootstrap-datetimepicker-widget {
+      z-index: 1030;
+      position: absolute;
+  }*/
+  
+  /*datetime picker*/
+  tr.kotofdatetime {
+      background-color: #fb4b3a !important;
+  }
+  
+  th.picker-switch {
+      border: 0px !important;
+      border-radius: 0px !important;
+  }
+  
+  th.prev {
+      border-bottom-right-radius: 0px !important;
+      border-top-right-radius: 0px !important;
+      border: 0px !important;
+  }
+  
+  th.next {
+      border-bottom-left-radius: 0px !important;
+      border-top-left-radius: 0px !important;
+      border: 0px !important;
+  }
+  
+  th.dow, th.picker-switch {
+      font-weight: bold;
+      border-left-width: 0px !important;
+      border-right-width: 0px !important;
+  }
+  
+  .bootstrap-datetimepicker-widget a[data-action] {
+      padding: 6px 0;
+  }
+  
+  .bootstrap-datetimepicker-widget table td {
+      height: 54px;
+      line-height: 54px;
+      width: 54px;
+  }
+  
+  .bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table th {
+      text-align: center;
+      border-radius: 4px;
+  }
+  
+      .bootstrap-datetimepicker-widget table td span:hover {
+          background: #eee;
+      }
+  
+  .bootstrap-datetimepicker-widget .timepicker-hour, .bootstrap-datetimepicker-widget .timepicker-minute, .bootstrap-datetimepicker-widget .timepicker-second {
+      width: 54px;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin: 0;
+  }
+  
+  .bootstrap-datetimepicker-widget table td span {
+      display: inline-block;
+      width: 54px;
+      height: 54px;
+      line-height: 54px;
+      margin: 2px 1.5px;
+      cursor: pointer;
+      border-radius: 4px;
+  }
+  
+  .bootstrap-datetimepicker-widget table thead tr:first-child th {
+      cursor: pointer;
+  }
+  
+  .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+      padding: 5px;
+  }
+  
+  .bootstrap-datetimepicker-widget table th {
+      height: 20px;
+      line-height: 20px;
+      width: 20px;
+  }
+  
+  .bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table th {
+      text-align: center;
+      border-radius: 4px;
+  }
+  
+  .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+      background: #eee;
+  }
+  
+  .bootstrap-datetimepicker-widget table thead tr:first-child th {
+      cursor: pointer;
+  }
+  
+  .bootstrap-datetimepicker-widget table th.picker-switch {
+      width: 145px;
+  }
+  
+  .bootstrap-datetimepicker-widget .picker-switch {
+      text-align: center;
+  }
+  
+  .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+      padding: 5px;
+  }
+  
+  
+  .bootstrap-datetimepicker-widget table th {
+      height: 20px;
+      line-height: 20px;
+      width: 20px;
+  }
+  
+  .bootstrap-datetimepicker-widget table td.day:hover, .bootstrap-datetimepicker-widget table td.hour:hover, .bootstrap-datetimepicker-widget table td.minute:hover, .bootstrap-datetimepicker-widget table td.second:hover {
+      background: #eee;
+      cursor: pointer;
+  }
+  
+  .bootstrap-datetimepicker-widget table td.day {
+      height: 20px;
+      line-height: 20px;
+      width: 20px;
+      border: 0px !important;
+  }
+  
+  .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+      padding: 5px;
+  }
+  
+  .bootstrap-datetimepicker-widget table td {
+      height: 54px;
+      line-height: 54px;
+      width: 54px;
+  }
+  
+  .bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table th {
+      text-align: center;
+      border-radius: 4px;
+      border: 0px !important;
+      padding: 3px !important;
+  }
+  
+  .bootstrap-datetimepicker-widget.dropdown-menu {
+      display: block;
+      margin: 2px 0;
+      padding: 4px;
+      width: 40em;
+      background-color: white;
+  }
+  
+  .bootstrap-datetimepicker-widget {
+      list-style: none;
+  }
+  
+      .bootstrap-datetimepicker-widget .list-unstyled {
+          margin: 0;
+      }
+  
+      .bootstrap-datetimepicker-widget .picker-switch {
+          text-align: center;
+      }
+  
+  
+      .bootstrap-datetimepicker-widget table {
+          width: 100%;
+          margin: 0;
+      }
+  
+  
+      .bootstrap-datetimepicker-widget .picker-switch td {
+          padding: 0;
+          margin: 0;
+          height: auto;
+          width: auto;
+          line-height: inherit;
+      }
+  
+  .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+      padding: 5px;
+  }
+  
+  .bootstrap-datetimepicker-widget table td {
+      height: 54px;
+      line-height: 54px;
+      width: 54px;
+  }
+  
+  .bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table th {
+      text-align: center;
+      border-radius: 4px;
+  }
+  
+  .bootstrap-datetimepicker-widget a[data-action] {
+      padding: 6px 0;
+  }
+  
+  .bootstrap-datetimepicker-widget table td span:hover {
+      background: #eee;
+  }
+  
+  .bootstrap-datetimepicker-widget .picker-switch td span {
+      line-height: 2.5;
+      height: 2.5em;
+      width: 100%;
+  }
+  
+  .bootstrap-datetimepicker-widget table td span {
+      display: inline-block;
+      width: 54px;
+      height: 54px;
+      line-height: 54px;
+      margin: 2px 1.5px;
+      cursor: pointer;
+      border-radius: 4px;
+  }
+  
+  /*בשביל הוספת אפרטוס*/
+  .addinci, .addinciurl, .stambtn {
+      cursor: pointer;
+      padding-right: 22px;
+      border: 1px #bcbec0 solid;
+      border-radius: 6px;
+      padding: 7px;
+      width: fit-content;
+      height: 40px;
+  }
+  
+  
+  .iconkl {
+      /* float: left; */
+      margin-left: 3px;
+      margin-right: 3px;
+      padding: 3px;
+      cursor: pointer;
+      height: 24px;
+  }
+  
+  .addinci .iconkl, .addinciurl .iconkl {
+      float: left;
+  }
+  
+  .addinciurl a {
+      color: #212529;
+  }
+  
+      .addinci span, .addinciurl a span, .addinciurl span, .stambtn span {
+          float: left;
+          margin-top: 1px;
+          color: black;
+          font-size: 16px;
+      }
+  
+          .addinci span:hover, .stambtn:hover, .addinciurl a:hover {
+              color: #6666d4;
+          }
+  
+  
+  .iconkl:hover {
+      background-color: #f3f3f3;
+  }
+  
+  .sys #popup ul.list-items {
+      height: 30px;
+      line-height: 30px;
+      padding-left: 5px;
+      font-size: 16px;
+  }
+  
+  .sys #popup ul.icons-filter, #sidebarsrc {
+      height: 30px;
+      line-height: 30px;
+      padding-left: 15px !important;
+      font-size: 16px;
+  }
+  
+  
+  
+  .check-menu {
+      background: url(../../images/inci/dropdown.png);
+      background-repeat: no-repeat;
+      background-position: 100%;
+      padding-right: 16px;
+      background-color: white;
+  }
+  
+  .edinc {
+      color: black;
+      padding: 3px;
+      cursor: pointer;
+  }
+  
+  @media screen and (max-width: 769px) {
+      .edinc {
+          font-size: 14px;
+      }
+  }
+  
+  #sidebarlist li {
+      cursor: pointer;
+  }
+  
+  .disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+  }
+  
+  .bootstrap-datetimepicker-widget .table-condensed {
+      color: #3c8dbc;
+  }
+  

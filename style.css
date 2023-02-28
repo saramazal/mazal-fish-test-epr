@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    padding: 40px 5%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+#main-section {
+    margin-top: 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-header {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    color: #911C1C;
+    margin-top: 0;
+}
+
+.link-container {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    text-align: center;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #DB8876;
+    width: 182px;
+}
+
+#main-section {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+}
+
+.main-section {
+    display: flex !important;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.card-name {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #D3573C;
+    margin-bottom: 10px;
+}
+
+.card-city {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #901C1C;
+    margin-bottom: 5px;
+}
+
+.card-citation {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.card-tjm {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 12px;    
+    text-align: center;
+    color: #757575;
+    margin-bottom: 5px;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #911C1C;
+    padding: 0px 10px;
+}
+
+.tag:hover {
+    background-color: #911C1C;
+    border: 0.5px solid #911C1C;
+    color: white;
+}
+
+#test {
+    width: 500px;
+    height: 500px;
+}
+
+/********** MEDIAS QUERIES **********/
+
+@media screen and (max-width: 1120px) {
+
+    #main-section {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 10%;
+    }
+
+    nav ul {
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 15%;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main-section {
+        margin: 0;
+        margin-top: 140px;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+  
+    header {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #logo {
+        margin-left: 20px;
+        width: 150px;
+    }
+
+    .text-header {
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    
+} */
+
+@media screen and (max-width: 600px) {
+
+    #main-section {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    #logo {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 100px;
+    }
+
+    .text-header {
+        margin-right: 20px;
+        font-size: 21px;
+    }
+
+    nav ul {
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .tag {
+        font-size: 12px;
+    }
+}
+
+
+
+
+

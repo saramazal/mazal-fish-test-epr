@@ -1,0 +1,800 @@
+
+
+/*.gotowid {
+    width: 25%;
+}*/
+.gotowid {
+      width: 20%;
+  }
+  
+  .unitnum {
+      width: 10%;
+  }
+  
+  .inspyype {
+      width: 11%;
+  }
+  
+  .saved-filters-cont {
+      background-color: antiquewhite;
+      display: flex;
+      align-items: center;
+  }
+  
+  .save-filter-box {
+      display: flex;
+  }
+  
+      .save-filter-box button.save {
+          border: 0;
+          background: #5bc0de;
+          width: 100%;
+          padding: 5px 0;
+          border-radius: 3px;
+          margin-bottom: 5px;
+          color: white;
+      }
+  
+      .save-filter-box button.delete {
+          border: 0;
+          background: #d9534f;
+          width: 100%;
+          padding: 5px 0;
+          color: white;
+          border-radius: 3px;
+      }
+          .save-filter-box button.delete:disabled {
+              background: #bfb4b4;
+          }
+  
+  .custom-filter-cont {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  #editfilter {
+      cursor: pointer;
+      fill: #2f2c28;
+  }
+  
+  .mr-2 {
+      margin-right: 5px;
+  }
+  
+  .colorb {
+      color: black !important;
+  }
+  
+  .edit-icon-filters {
+      position: absolute;
+  }
+  
+  .InternalStatuscl {
+      /*width: 20%;*/
+      width: 10%;
+  }
+  
+  .gotowidsm {
+      width: 20%;
+  }
+  
+  .halfwd {
+      width: 6%;
+  }
+  
+  .inlinebll {
+      display: inline-block;
+      margin-left: 33px;
+  }
+  
+  #opfilter, #saveoff {
+      float: left;
+  }
+  
+  #saveoff {
+      margin-left: 10px;
+  }
+  
+  .blkblk {
+      color: black;
+  }
+  
+  input[type=checkbox].checkboxbig {
+      width: 22px;
+      height: 22px;
+  }
+  
+  .checkbox-inline + .checkbox-inline, .radio-inline + .radio-inline {
+      margin-left: 5px;
+  }
+  
+  .page-header {
+      margin-top: 20px;
+  }
+  
+  h4 {
+      margin-top: 25px;
+  }
+  
+  .row {
+      margin-bottom: 20px;
+  }
+  
+      .row .row {
+          /*margin-top: 10px;*/
+          margin-bottom: 0;
+      }
+  
+  [class*="col-"] {
+      padding-top: 5px;
+      /*padding-bottom: 5px;*/
+      /*background-color: #eee;
+    background-color: rgba(86,61,124,.15);*/
+      /*border: 1px solid #ddd;
+      border: 1px solid rgba(86,61,124,.2);*/
+  }
+  
+  .paddtb5 {
+      padding-bottom: 0px !important;
+  }
+  
+  .hidesmx {
+      width: 12%;
+  }
+  
+  input[type=text] {
+      /*margin-left: 5px;
+      float: right;*/
+      width: 50%;
+      /*border-radius: 0;
+      box-shadow: none;
+      border-color: #d2d6de;
+      border: 1px solid #ccc;*/
+  }
+  
+  @media screen and (min-width: 999px) {
+      input.wid40[type=text] {
+          width: 40%;
+      }
+  }
+  
+  
+  .midinp {
+      margin-left: 10%;
+      float: none;
+      width: 80%;
+  }
+  
+  hr {
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+  
+  
+  
+  .rownob {
+      margin-bottom: 0px;
+  }
+  
+  .row0px {
+      border: 0px;
+  }
+  
+  
+  
+  /*#inspector {
+      margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 650px) {
+      #inspector {
+          margin-top: 10px;
+          margin-left: 0px;
+      }
+  }*/
+  
+  
+  input.allr[type=radio] {
+      float: right;
+  }
+  
+  
+  .checkbox.checkbox-inline {
+      margin-left: 4px;
+  }
+  
+  .hidesmxnew {
+      /*display: none !important;*/
+      /*font-size: 13px;*/
+      width: 20%;
+  }
+  
+  .short {
+      /*display: none !important;*/
+      /*font-size: 13px;*/
+      width: 1.2%;
+      text-align: center;
+  }
+  
+  .gotowidshort {
+      width: 6%;
+      cursor: pointer;
+  }
+  
+  .psishort {
+      width: 2%;
+  }
+  
+  .text {
+      white-space: unset !important;
+      margin-right: 0px !important;
+  }
+  
+  .checkbox label::before {
+      width: 21px !important;
+      height: 20px !important;
+  }
+  
+  .shorting {
+      /*display: none !important;*/
+      /*font-size: 13px;*/
+      width: 3%;
+  }
+  
+  .dobatchcss {
+      float: left;
+      margin-left: 18px;
+  }
+  
+  .shorting1 {
+      /*display: none !important;*/
+      /*font-size: 13px;*/
+      width: 1.5%;
+      cursor: pointer;
+      text-align: center;
+  }
+  
+  .shorting2 {
+      /*display: none !important;*/
+      /*font-size: 13px;*/
+      width: 2%;
+      cursor: pointer !important;
+  }
+  
+  .maplegend {
+      background: white;
+      position: absolute;
+      z-index: 150;
+      width: 212px !important;
+      height: 367px !important;
+      /*right: 3% !important;
+      left: auto!important;
+      top: 25% !important;
+      bottom: auto !important;*/
+      border: 1px solid grey;
+      border-radius: 10px;
+      /*padding: 10px;*/
+      top: 17vh;
+      right: 1vw;
+  }
+  
+      .maplegend .header {
+          padding: 10px 5px 10px 10px;
+          text-align: left;
+          background: #1abc9c;
+          color: white;
+          font-size: 22px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+      }
+  
+      .maplegend .body {
+          margin-top: 5px;
+      }
+  
+  .legendsquer {
+      vertical-align: top;
+      font-size: 5vh;
+      margin: 0 9px;
+      width: 15%;
+  }
+  
+      .legendsquer.black {
+          color: black;
+      }
+  
+      .legendsquer.orange {
+          color: #fe6a00;
+      }
+  
+      .legendsquer.green {
+          color: #1fb603;
+      }
+  
+      .legendsquer.blue {
+          color: #3498db;
+      }
+  
+  .legndfooter {
+      bottom: 0;
+      width: 100%;
+      background-color: #f5f5f5;
+      color: #333 !important;
+      height: fit-content;
+  }
+  
+  .margin5 {
+      padding-left: 17px !important;
+  }
+  
+  .margin25 {
+      padding-left: 10px !important;
+  }
+  
+  
+  input.assidt.datepicker {
+      border: 1px solid;
+      padding: 0px 10px;
+      width: 75%;
+  }
+  
+  .updkot {
+      padding: 4px;
+      cursor: pointer;
+      /*border: 1px solid;*/
+  }
+  
+      .updkot:hover {
+          color: blue;
+      }
+  
+  th[data-column-id="id"] {
+      width: 3%;
+  }
+  
+  th[data-column-id="ddt"],
+  th[data-column-id="shift"],
+  th[data-column-id="StationName"] {
+      width: 4%;
+  }
+  
+  th[data-column-id="a"].propertyAssign {
+      width: 6%;
+  }
+  .assignFields {
+      display: inline-flex;
+      align-items: center;
+  }
+  th.gotowidshort select,
+  th input.datepicker,
+  td.gotowidshort select,
+  td input.datepicker, 
+  #masscngdt {
+      border: 0 !important;
+      background: transparent;
+      border-bottom: 1px solid lightgrey !important;
+      border-radius: 0;
+  }
+  #updkotdtPicker, #masscngdt {
+      max-height: 19px;
+  }
+  #cngduedtlbl2,
+  assignFields label{
+      margin-bottom: 0 !important;
+  }
+  /*@media screen and (max-width: 770px) {
+     .hidesmx {
+          font-size: 13px;
+          width: 13%;
+      }
+  
+      .gotowidsm {
+          width: 13%;
+      }
+  
+      .hidesmxnew {
+          display: none !important;
+      }
+  
+      .grgr {
+          min-height: 70px !important;
+      }
+  
+      .halfwd {
+          width: 9%;
+      }
+  
+      .unitnum {
+          font-size: 13px;
+          width: 11%;
+      }
+  
+      .inspyype {
+          font-size: 13px;
+          width: 7%;
+      }
+  
+      .InternalStatuscl {
+          width: 0%;
+      }
+  }*/
+  @media screen and (min-width: 770px) {
+      .hidedescperut {
+          display: none !important;
+          /*font-size: 13px;
+          width: 10%;*/
+      }
+  
+      .grgr {
+          /*background-color: rgb(236, 236, 248);*/
+          min-height: 80px;
+      }
+  }
+  
+  
+  
+  
+  .datepicker-dropdown {
+      margin-top: -164px;
+      /*margin-left: 5%;*/
+  }
+  @media screen and (min-width: 1368px) and (max-width:1605px) {
+      input.assidt.datepicker {
+          padding: 0px 5px;
+          width: 80%;
+          font-size: smaller;
+      }
+      th[data-column-id="id"] {
+          width: 4%;
+      }
+      .gotowid {
+          width: 12%;
+      }
+      .InternalStatuscl {
+          width: 7%;
+      }
+  }
+  
+  @media screen and (max-width: 1280px) {
+      input.assidt.datepicker {
+          padding: 0px 5px;
+          width: 80%;
+          font-size: smaller;
+      }
+      th[data-column-id="id"] {
+          width: 4%;
+      }
+      .gotowid {
+          width: 10%;
+      }
+      .InternalStatuscl {
+          width: 7%;
+      }
+  }
+  
+  @media screen and (max-width: 1024px) {
+      .halfwd {
+          width: 10%;
+      }
+  }
+  
+  @media screen and (max-width: 1200px) {
+      .tdno5, .tdno4 {
+          font-size: 16px;
+          min-width: 68px;
+      }
+  
+      .tdno1, .tdno2 {
+          min-width: 55px;
+      }
+  
+      .tdno7 {
+          min-width: 75px;
+      }
+  
+      label {
+          font-size: 16px;
+      }
+  
+      .halfwd {
+          width: 10%;
+      }
+      /*label, #afont {
+          font-size: 16px;
+      }*/
+      /*#sl1th,#sl6th {
+          min-width: 14%;
+      }
+  
+      #sl8th {
+          min-width: 13%;
+      }
+      #sl4,#sl2 {
+          min-width: 7%;
+      }*/
+  }
+  
+  @media screen and (min-width: 750px) {
+      .tdno3, .tdno2 {
+          width: 20%;
+      }
+  
+      .tdno7 {
+          min-width: 13%;
+      }
+  
+      .tdno0 {
+          min-width: 10%;
+      }
+  }
+  
+  @media screen and (max-width: 750px) {
+      /*.gotowid {
+          width: 23%;
+      }*/
+      .gotowid {
+          /*width: 34%;*/
+          width: 10%;
+      }
+  
+      .gotowidsm {
+          width: 20%;
+      }
+  
+      .halfwd {
+          width: 10% !important;
+      }
+  
+      .gotowid {
+          width: 10%;
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+      /*.hidesmx {
+          display: none !important;
+      }*/
+      .hidesmx {
+          /*display: none !important;*/
+          font-size: 11px;
+          width: 16%;
+      }
+  
+      .btn-primary {
+          padding-right: 1px !important;
+          padding-left: 1px !important;
+          padding-top: 1px !important;
+          padding-bottom: 1px !important;
+      }
+  
+      .gotowid {
+          font-size: 14px;
+          vertical-align: top !important;
+      }
+  
+          .gotowid a {
+              vertical-align: top !important;
+          }
+  
+      .gotowidsm {
+          font-size: 14px;
+          vertical-align: top !important;
+      }
+  
+          .gotowidsm a {
+              vertical-align: top !important;
+          }
+  
+      .halfwd {
+          width: 10%;
+      }
+  
+      .unitnum {
+          font-size: 11px;
+          vertical-align: top !important;
+      }
+  
+      .inspyype {
+          width: 7%;
+      }
+  
+      .InternalStatuscl {
+          width: 11%;
+      }
+  }
+  
+  @media screen and (max-width: 500px) {
+      .fontsm {
+          font-size: 13px;
+      }
+  
+      .imglit {
+          max-height: 13px;
+      }
+  
+      /*.gotowid,.halfwd {
+          width: 23%;
+      }*/
+      .halfwd {
+          vertical-align: top !important;
+          width: 14% !important;
+      }
+  
+      .hidesmx {
+          width: 16%;
+      }
+  
+      .gotowid {
+          vertical-align: top !important;
+          width: 28%;
+      }
+  
+      .gotowidsm {
+          vertical-align: top !important;
+          width: 20%;
+      }
+  
+      .unitnum {
+          width: 0%;
+      }
+  
+      .inspyype {
+          width: 0%;
+      }
+  
+      .InternalStatuscl {
+          width: 0%;
+      }
+  }
+  
+  .mapic {
+      max-height: 24px;
+  }
+  
+  .criti {
+      color: red;
+  }
+  
+  .onerow {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background-color: transparent;
+      min-height: 24px;
+  }
+  
+  .FilterButtons {
+      display: inline-block;
+      float: right;
+      max-width: 780px;
+  }
+  
+  .FilterBtn {
+      display: inline;
+      float: left;
+      text-align: left;
+      padding: 3px 0 0 9px;
+      margin-bottom: 3px;
+  }
+  
+      .FilterBtn a {
+          text-decoration: none;
+          display: inline;
+          color: #064982;
+      }
+  
+  .FilterBtnLeft {
+      display: inline;
+  }
+  
+  .FilterBtn .FilterBtnCenter {
+      display: inline-block;
+      direction: rtl;
+      float: left;
+      /* height: 14px; */
+      font: 13px arial;
+      color: #7a7a7a;
+      padding: 2px;
+      background-color: #f8f8f5;
+      border: 1px solid #c5c5c5;
+      border-radius: 5px;
+      /* border-top-left-radius: 5px; */
+      /* border-bottom-left-radius: 5px; */
+      /* border-top-right-radius: 5px; */
+      /* border-bottom-right-radius: 5px; */
+      /* margin-left: 5px; */
+      margin: 0px 0px 6px 6px;
+  }
+  
+      .FilterBtn .FilterBtnCenter A:visited {
+          font: 14px arial;
+          color: #7a7a7a;
+          text-decoration: none;
+      }
+  
+  
+  .delfilt {
+      padding: 3px;
+      font-size: 16px;
+      border-left: 2px solid #c5c5c5;
+      cursor: pointer;
+  }
+  
+  .onlyfilt {
+      padding: 4px;
+      font-size: 13px;
+      cursor: pointer;
+      color: #064982;
+  }
+  /*.filterbox {
+      border: 1px solid lightgray;
+      padding: 5px;
+      border-radius: 5px;
+      margin: 0px 20px 0px 20px;
+  }*/
+  .filterBtnToggle {
+      margin-left: 15px;
+      /*border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      background-color: lightgray !important;
+      background: lightgrey !important;
+      color: #3c8dbc !important;
+      border-color: darkgray !important;*/
+  }
+  
+      .filterBtnToggle:hover {
+          color: blue !important;
+          border-color: gray !important;
+      }
+  
+  #plusMinus {
+      font-size: 18px;
+      vertical-align: baseline;
+  }
+
+  main section {
+      display: inline !important;
+      margin-top: 20px !important;
+  }
+  
+  legend {
+      display: block;
+      width: 13%;
+      padding: 0;
+      margin-bottom: 0px;
+      font-size: 18px;
+      line-height: inherit;
+      color: #333;
+      border: 0;
+      border-bottom: none;
+  }
+  
+  fieldset {
+      padding: .15em .625em .15em !important;
+      margin: 0 20px !important;
+      border: 1px solid silver !important;
+      border-radius: 5px;
+  }
+  .cwInput {
+      display: flex;
+      align-items: self-end;
+      gap: 8px;
+      font-size: 15px;
+      font-weight:bold;
+  }
+  .cwInput.red {
+     color:red;
+     fill:red
+  }
+  .cwInput.blue {
+     color:#3fa5e8;
+     fill:#3fa5e8
+  }
+  
+  .bootstrap-datetimepicker-widget.dropdown-menu.usetwentyfour.bottom {
+      background-color: white;
+  }
+
+div {
+      border: 1px solid red !important;
+}

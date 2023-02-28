@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.main-container {
+    padding: 40px 5%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.top-section {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.body-section {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    margin-top: 30px;
+}
+
+.media {
+    width: 100%;
+    height: 380px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.titre-selector {
+    margin-top: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.infos-profil {
+    padding-left: 40px;
+}
+
+#nom-profil {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: #D3573C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#ville-profil {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #901C1C;
+    margin-bottom: 20px;
+}
+
+#citation-profil {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #525252;  
+    margin-bottom: 20px;  
+}
+
+#tag-profil {
+    margin-top: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #911C1C;
+}
+
+
+.tag {
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    text-align: center;
+    color: #911C1C;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+}
+
+.tag:hover {
+    background-color: #911C1C;
+    border: 0.5px solid #911C1C;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-photo {   
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#photo-top-section {
+    position: absolute;
+    right: 4%;
+    top: 18%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+#container-contactez-moi {
+    margin-left: 0;
+}
+
+.contactez-moi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 69px;
+    background: #911C1C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.container-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-likes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-media {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #911C1C;
+}
+
+.likes-media {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: right;
+    color: #911C1C;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.profil-tjm-likes {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 376px;
+    max-width: 1600px;
+    height: 89px;
+    right: 10%;
+    bottom: 0;
+    background: #DB8876;
+    border-radius: 5px;
+}
+
+
+.total-likes {
+    margin-left: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: right;
+    color: #000000;
+}
+
+.tjm-profil {
+    margin-left: 130px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.recherche-selector-trie {
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+}
+
+.popularite {
+    position: absolute;
+    left: 60px;
+    width: 170px;
+    background: #911C1C;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.selector-pop {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.container-title1, .container-title2, .container-title3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#selecteur-trie, #popularite-title1, #popularite-title2, #popularite-title3 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+.selector-open {
+    width: 100%;
+    display: none;
+}
+
+.container-title1 {
+    display: flex;
+}
+
+.container-title2, .container-title3 {
+    width: 80%;
+    border-top: 1px solid white;
+}
+
+#fleche {
+    width: 15px;
+    margin-left: 20px;
+}
+
+/************************ Partie Modal **********************/
+
+.modal-bg {
+    visibility: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 100%;    
+}
+
+.modal-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.chevron-modal {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.photo-modal {
+    width: 50%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.video-modal {
+    width: 50%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.exit-modal {
+    width: 50px;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    cursor: pointer;
+    background-image: url(./FishEye_Photos/svg/exit.svg);
+}
+
+#container-media-modal {
+    width: 50%;
+    height: 800px;
+}
+
+.title-modal {
+    padding-top: 10px;
+    padding-left: 25%;
+}
+
+/***************** Formulaire ***************/
+
+.form-container {
+    visibility: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(158, 155, 155, 0.5);
+} 
+
+@keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    width: 40%;
+    background: #DB8876;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.form-title {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+}
+
+.label-form {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    color: #312E2E;
+    mix-blend-mode: normal;
+}
+
+.input-form {
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 5px 0px;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+.textarea-form {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+.btn-form {
+    Width: 170px;
+    Height: 69px;
+    margin-top: 20px;
+    background: #911C1C;
+    border: 1px solid #911C1C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.exitBlanc {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 45px;
+    cursor: pointer;
+}
+
+#photographe-name {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 83px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.contactez-moi {
+    cursor: pointer;
+}
+
+/********************** MEDIAS QUERIES *******************/
+@media screen and (max-width: 1450px) {
+
+    .form {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    #container-contactez-moi {
+        width: 100%;
+        margin: 0;
+        padding: 0;display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 10px;
+        margin-left: -140px;
+    }
+
+    .contactez-moi {
+        height: 40px;
+    }
+
+    .profil-tjm-likes {
+        display: none;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .body-section {
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+
+    #container-contactez-moi {
+        margin-left: -40px;
+    }
+
+    .form {
+        width: 70%;
+    }
+
+    .form-title {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    #photographe-name {
+        font-size: 50px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 804px) {
+
+    .top-section {
+        padding-top: 0px;
+    }
+
+    #nom-profil {
+        font-size: 44px;
+    }
+
+    #ville-profil {
+        font-size: 18px;
+    }
+
+    #citation-profil {
+        font-size: 15px;
+    }
+
+    #tag-profil {
+        font-size: 15px;
+
+    }
+
+    #photo-top-section {
+        width: 150px;
+        height: 150px;
+        top: 10%;
+    }
+
+    .form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #nom-profil {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    #ville-profil {
+        font-size: 10px;
+        margin-bottom: 0;
+
+    }
+
+    #citation-profil {
+        font-size: 10px;
+        margin-bottom: 0;
+
+    }
+
+    #tag-profil {
+        font-size: 10px;
+
+    }
+
+    #photo-top-section {
+        width: 100px;
+        height: 100px;
+        top: 8%;
+    }
+
+    .body-section {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 0;
+    }
+
+    .media {
+        height: 250px;
+    }
+
+    .container-likes {
+        margin-bottom: 30px;
+    }
+
+    .infos-profil {
+        padding-left: 20px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .form-title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    #photographe-name {
+        font-size: 40px;
+    }
+
+    .label-form {
+        font-size: 26px;
+    }
+   
+}
+
+@media screen and (max-width: 450px) {
+
+    .form-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #photographe-name {
+        font-size: 30px;
+    }
+
+}
+
