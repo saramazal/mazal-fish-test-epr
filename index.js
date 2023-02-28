@@ -100,7 +100,7 @@ function displayProfils(photographe) {
 
     newDiv.appendChild(divTags);
 
-    setTimeout(() => {
+    /*setTimeout(() => {
     
         [...document.getElementsByClassName("card")].forEach((pen, index) => {
               if (index < 2) {
@@ -109,7 +109,7 @@ function displayProfils(photographe) {
         })
     
     }, 10000)
-}
+} */
 
 function getData() {
     fetch("photographes.json")
