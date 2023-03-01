@@ -8,8 +8,8 @@
 8. profil.js - change : formulaireContact.style.visibility = "hidden"; to   formulaireContact.style.visibility = "visible";
 9. some changes in css: #main, .form-container, .form.
 
-time of editing, uploading to GitHub and deploy 3 hours.
+## time of editing, uploading to GitHub and deploy 3 hours.
 
-live view: https://mazal-fish-test-epr.vercel.app/
-gitPod: https://saramazal-mazalfishtest-2spu7paogmi.ws-us88.gitpod.io
-gist: https://gist.github.com/saramazal/e218f5bf250537aa045f21b49a3316d5
+## [live view:](https://mazal-fish-test-epr.vercel.app/)
+## [gitPod:](https://saramazal-mazalfishtest-2spu7paogmi.ws-us88.gitpod.io)
+## [gist:](https://gist.github.com/saramazal/e218f5bf250537aa045f21b49a3316d5)
