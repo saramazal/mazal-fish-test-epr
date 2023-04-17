@@ -507,6 +507,11 @@ a {
     .form {
         width: 60%;
     }
+.photo-modal {
+    width: 50%;
+    height: auto;
+    object-fit:contain;
+}
 
 }
 
@@ -568,6 +573,11 @@ a {
     .form {
         width: 80%;
     }
+    .photo-modal {
+    width: 50%;
+    height: auto;
+    object-fit:contain;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -635,6 +645,11 @@ a {
     .label-form {
         font-size: 26px;
     }
+    .photo-modal {
+    width: 50%;
+    height: auto;
+    object-fit:contain;
+}
    
 }
 
@@ -648,6 +663,11 @@ a {
     #photographe-name {
         font-size: 30px;
     }
+    .photo-modal {
+    width: 50%;
+    height: auto;
+    object-fit:contain;
+}
 
 }
 
