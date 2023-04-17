@@ -338,7 +338,7 @@ a {
 
 .video-modal {
     width: 50%;
-    height: 800px;
+    height: auto;
     object-fit: cover;
 }
 
