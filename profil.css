@@ -344,10 +344,10 @@ a {
 }
 
 .exit-modal {
-    width: 7vw;
+    width: 5vw;
     position: absolute;
-    top: 15%;
-    right: 20%;
+    top: 11vh;
+    right: 15%;
     cursor: pointer;
     background-image: url(./FishEye_Photos/svg/exit.svg);
 }
